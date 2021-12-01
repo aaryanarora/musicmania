@@ -1,0 +1,114 @@
+
+body{
+    background-color: rgb(51, 143, 43);
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #dcdcdc;
+    font-family: 'Outfit', sans-serif;
+    
+}
+h3{
+	display: inline;
+	font-family: 'Outfit', sans-serif;
+	color: #dcdcdc;
+	font-size: 2rem;
+	margin-right: 4rem;
+}
+.pressed{
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+a{
+	justify-content: right;
+	text-decoration: none;
+	font-family: 'Outfit', sans-serif;
+	color: #dcdcdc;
+	display: inline;
+	font-size: 2rem;
+	margin-right: 2rem;
+	align-items: right;
+	text-align: right;
+}
+a:hover{
+	opacity: 70%;
+}
+.ns{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.top{
+    margin-bottom: 7rem;
+}
+.cbox{
+    text-align: center;
+}
+.ub{
+    box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #181818 100%);
+	background-color:#000000;
+	border-radius:6px;
+    z-index: 100;
+    position:absolute;
+    transform: translateX(-50%);
+	border:1px solid #0f0b0b;
+	display:inline;
+	cursor:pointer;
+	color:#080606;
+	padding:82px 33px;
+	color: white;
+	font-size: 1.2rem;
+	font-family: 'Outfit', sans-serif;
+	text-decoration:none;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+    align-items: center;
+	font-family: 'Outfit', sans-serif;
+	color:#666666;
+	font-weight:bold;
+	font-size: 1.2rem;
+	padding:132px 48px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+	opacity: 50%
+}
+.ub:hover {
+	background:linear-gradient(to bottom, #222121 5%, #030101 100%);
+	background-color:#161616;
+}
+.ub:active {
+	opacity: 95%;
+}
+
+@media only screen and (max-width: 730px) {
+    .myButton{
+        padding:92px 19px;
+		font-size: 0rem;
+    }
+    .ub{
+        padding:52px 17px;
+		font-size: 0rem;
+    }
+	a{
+		font-size: 1.2rem;
+		margin-right: 1rem;
+	}
+	h3{
+		font-size: 1.2rem;
+	}
+  }

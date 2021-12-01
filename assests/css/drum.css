@@ -1,0 +1,150 @@
+
+body{
+    background-color: rgb(73, 99, 214);
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #dcdcdc;
+    font-family: 'Outfit', sans-serif;
+    
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #dcdcdc;
+    font-family: 'Outfit', sans-serif;
+    
+}
+h3{
+	display: inline;
+	font-family: 'Outfit', sans-serif;
+	color: #dcdcdc;
+	font-size: 2rem;
+	margin-right: 4rem;
+}
+a{
+	justify-content: right;
+	text-decoration: none;
+	font-family: 'Outfit', sans-serif;
+	color: #dcdcdc;
+	display: inline;
+	font-size: 2rem;
+	margin-right: 2rem;
+	align-items: right;
+	text-align: right;
+}
+a:hover{
+	opacity: 70%;
+}
+.ns{
+	text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.top{
+    margin-bottom: 10rem;
+}
+.cbox{
+    text-align: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+    align-items: center;
+	color:#666666;
+	font-family: 'Outfit', sans-serif;
+	font-size: 2rem;
+	font-weight:bold;
+	padding:65px 65px;
+    margin: 0.2rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.w{
+	background-image: url("../images/crash.png");
+	background-size: cover;
+}
+.s{
+	background-image: url("../images/clapso.png");
+	background-size: cover;
+}
+.d{
+	background-image: url("../images/snare.png");
+	background-size: cover;
+}
+.k{
+	background-image: url("../images/hat.png");
+	background-size: cover;
+}
+.l{
+	background-image: url("../images/snare.png");
+	background-size: cover;
+}
+.j{
+	background-image: url("../images/kicks.png");	
+	background-size: cover;
+}
+.a{
+	background-image: url("../images/tom.png");
+	background-size: cover;
+}
+.pressed{
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+    opacity: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .myButton{
+        padding:82px 12px;
+    }
+	a{
+		font-size: 1.2rem;
+		margin-right: 1rem;
+	}
+	h3{
+		font-size: 1.2rem;
+		margin-right: 2rem;
+	}
+	.w{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.a{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.s{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.d{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.j{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.k{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+	.l{
+		background-size: 7pc;
+		background-repeat: no-repeat;
+	}
+  }
